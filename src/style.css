@@ -1,0 +1,42 @@
+body {
+    background-color:#ff7e75;
+    text-align: center;
+}
+.Fuecoco-word{
+    font-size:80px;
+    color: crimson;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+td{
+    background-color: #e93428;
+}
+img{
+    width: 100px;
+}
+table{
+    background-color: #FDD835;
+    width: 100%;
+    text-align: center;
+}
+hr{
+    width: 50%;border-color:#ff00f2;
+}
+.about-title{
+    color: #ffbb00;
+    text-align: center;
+    font-size: 40px;
+}
+.violet{
+    color: rgb(159, 4, 231);
+}
+.TTitle{
+    width: 20%;
+}
+.scarlet{
+    color: rgb(138, 2, 2);
+}
+.pokedex{
+    color:rgb(255, 240, 240);
+    border-color: #a52424;
+    border-style: solid;
+}
