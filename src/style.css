@@ -59,3 +59,6 @@ hr{
     box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
     cursor: pointer;
 }
+button:hover {
+    background-color: rgb(255, 255, 255);
+    color: #1a64d6;
