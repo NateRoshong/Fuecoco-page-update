@@ -46,11 +46,11 @@ hr{
     text-decoration: none;
 }
 .CocoButton{
-    display: block;
-    margin: 20px auto;
+    display: inline;
+    margin: 2px;
     border: 2px solid #ffbb00;
     background: #e93428;
-    color: #fff;
+    color: #ffbb00;
     font-size: 16px;
     line-height: 22px;
     padding: 16px 24px;
@@ -58,7 +58,19 @@ hr{
     transition: all 200ms ease;
     box-shadow: rgba(37,39,89,0.08) 0px 8px 8px 0;
     cursor: pointer;
+    width: 100px;
+}
+.buttonspace{
+    text-align: center;
 }
 button:hover {
-    background-color: rgb(255, 255, 255);
-    color: #1a64d6;
+    background-color: #ff46f0;;
+    color: #f5ffd8;
+    border: 2px solid #fff6de;
+}
+.bLeft{
+    margin-left: 20px;
+}
+.bRight{
+    margin-right: 20px;
+}
