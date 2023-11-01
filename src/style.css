@@ -13,6 +13,16 @@ td{
 img{
     width: 100px;
 }
+.bigimg{
+    width: 90px;
+}
+.bigimg2{
+    width: 80px;
+}
+.croc{
+    width:110px ;
+    text-align: center;
+}
 table{
     background-color: #FDD835;
     width: 100%;
@@ -30,14 +40,16 @@ hr{
 }
 .violet{
     color: rgb(159, 4, 231);
+    background-color: #e93f33;
 }
 .TTitle{
     width: 20%;
 }
 .scarlet{
     color: rgb(138, 2, 2);
+    background-color: #e93f33;
 }
-.pokedex{
+#pokedex{
     color:rgb(255, 240, 240);
     border-color: #ffffff;
     background-color: #e93f33;
@@ -76,4 +88,13 @@ hr{
 }
 .bRight{
     margin-right: 20px;
+}
+.fueRight{
+    margin-right: 10px;
+}
+.imgRight{
+    margin-right: 10px;
+}
+#dextable{
+    background-color: #ffffff;
 }
