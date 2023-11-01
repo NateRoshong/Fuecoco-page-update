@@ -18,6 +18,7 @@ table{
     width: 100%;
     text-align: center;
     color: #ffbb00;
+    
 }
 hr{
     width: 50%;border-color:#ff00f2;
@@ -38,8 +39,10 @@ hr{
 }
 .pokedex{
     color:rgb(255, 240, 240);
-    border-color: #a52424;
+    border-color: #ffffff;
+    background-color: #e93f33;
     border-style: solid;
+    border-radius:30px;
 }
 .Cocolink{
     color: #ffbb00;
