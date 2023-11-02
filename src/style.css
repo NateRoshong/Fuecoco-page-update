@@ -34,6 +34,7 @@ table, td{
     border: 0px;
     border-style: solid;
     border-radius: 9px;
+    font-weight: bold;
 }
 hr{
     width: 50%;
@@ -132,6 +133,38 @@ fixes the spacing of affected
 #o1{
     color: #e23226;
 }
-.fire{
+.fire1{
     width: 75px;
+}
+.sited{
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    background-color: #e93428;
+    color: #FDD835;
+    border-radius: 180px;
+
+}
+
+.chart{
+    width: 20%;
+}
+.evos{
+    font-weight: bold;
+    font-size: 30px;
+    border: 2px solid;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    background-color: #e93428;
+    color: #FDD835;
+    border-radius: 180px;
+    padding: 10px;
+}
+#fire{
+    width: 20px;
+}
+#about-title{
+    border-radius: 50px;
 }

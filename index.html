@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>
-			everything you need to know about Fuecoco
+			Everything You Need to Know About Fuecoco
            </title>
 		   <link rel="stylesheet" href = "src/style.css">
 	</head>
@@ -10,19 +10,21 @@
 	<div><!-- changed the color of each leter-->
 		<p class = "Fuecoco-word"> 
 		<img src="src/Shiny-Fuecoco.png">
-        	<span id="f">F</span><span id="u">u</span><span id="e">e</span><span id="c">c</span><span id="o">o</span><span id="c1">c</span><span id="o1">o</span>
+        <span id="f">F</span>	<span id="u">u</span>	<span id="e">e</span>	<span id="c">c</span>	<span id="o">o</span>	<span id="c1">c</span>	<span id="o1">o</span>
 		<img src="src/Shiny-Fuecoco.png">
 		 </p>
 		 <hr>
 		</div>
 			
-		<table>
-			<td><h1 class = "about-title">About Fuecoco<h1></td>
+		<table id = "about-title">
+			<!--added curves-->
+			<td id = "about-title"><h1 class = "about-title">About Fuecoco<h1></td>
 		</table>
+		
 			<hr>
 			<h1 id = "pokedex">Pokedex Entry</h1>
 			<!--added to border for some contrast-->
-	<div> <!--dextable-->
+	<div>
 		<table id = "dextable">
 			<tr>
 			<td class = "scarlet TTitle">Scarlet</td>
@@ -34,57 +36,63 @@
 			</tr>
 		</table><br>
 		</div>
-	<div><!--evolutions-->
-		<h1> Evolutions of Fuecoco</h1>
+	<div>
+		<!--changed the style of the evo title-->
+		<!--Added images to the evo title-->
+		<p class = "evos"><img id="fire" src="src/Fire-1.png">Evolutions of Fuecoco<img id="fire" src="src/Fire-1.png"></p>
+		<!--changed the tabled to have an indepenent border-->
+		<!--finished the table and added images-->
+		<!-- gave the table curves-->
 			<table>
-				<tr >
-					<td>Evolutions Name</td>
-					<td>Image</td>
-					<td>shiny Image</td>
-					<td>Level evolded</td>
-					<td>Typing</td>
+				<tr > 
+					<td class = "chart">Evolutions Name</td>
+					<td class = "chart">Image</td>
+					<td class = "chart">shiny Image</td>
+					<td class = "chart">Level evolded</td>
+					<td class = "chart">Typing</td>
 				</tr>
 				<tr >
-					<td>Fuecoco</td>
-					<td><img src="src/Fuecoco.webp"></td>
-					<td><img class = "bigimg" src="src/Shiny-Fuecoco.png"></td>
-					<td>starts at level 5</td>
-					<td>Fire</td>
+					<td class = "chart">Fuecoco</td>
+					<td class = "chart"><img src="src/Fuecoco.webp"></td>
+					<td class = "chart"><img class = "bigimg" src="src/Shiny-Fuecoco.png"></td>
+					<td class = "chart">starts at level 5</td>
+					<td class = "chart">Fire</td>
 				</tr>
 				<tr >
-					<td>Crocalor</td>
-					<td><img class ="croc" src="src/Crocalor.webp"></td>
-					<td><img class = "bigimg2" src="src/Crocalor-Shiny.png"></td>
-					<td>Level 16</td>
-					<td>Fire</td>
+					<td class = "chart">Crocalor</td>
+					<td class = "chart"><img class ="croc" src="src/Crocalor.webp"></td>
+					<td class = "chart"><img class = "bigimg2" src="src/Crocalor-Shiny.png"></td>
+					<td class = "chart">Level 16</td>
+					<td class = "chart">Fire</td>
 				</tr>
 				<tr >
-					<td>Skeledirge</td>
-					<td><img class = "croc"src="src/Skeledirge.webp"></td>
-					<td><img src="src/Skeledirge-Shiny.png"></td>
-					<td>Level 36</td>
-					<td>Fire Ghost</td>
+					<td class = "chart">Skeledirge</td>
+					<td class = "chart"><img class = "croc"src="src/Skeledirge.webp"></td>
+					<td class = "chart"><img src="src/Skeledirge-Shiny.png"></td>
+					<td class = "chart">Level 36</td>
+					<td class = "chart">Fire Ghost</td>
 				</tr>
 			</table>
-		</div>	<br>
-		<div><!-- moves-->
-				<table>
-					<tr >
-						<td>Level learned</td>
-						<td>Moves</td>
-						<td>Typing</td>
-					</tr>
-				</table>
-			</div>
-	<div> <!-- work sited page-->
-		<p style="font-size: 30px;">
+		</div><br>
+		<div>
+			<table>
+				<tr >
+					<td>Level learned</td>
+					<td>Moves</td>
+					<td>Typing</td>
+				</tr>
+			</table>
+		</div>
+		
+		
+		<div>
+
 			<!--Name was styled-->
-		<strong>Work Sited</strong><br>
-		</p>
+		<p class = "sited">Work Sited</p>
+			
 			<!--All image links have been turned into buttons -->
 			<!--imgages have been linked to the src folder.-->
 			<!--all spacing has beem changed to help have everything be look neat-->
-
 
 			<!--added 3 new images-->
 			<!--added 2 new shiny pokemon links-->
@@ -115,7 +123,7 @@
 			<div>
 
 			<!-- new fire image linked-->
-			<img class = "fire" src="src/Fire-1.png"><br>
+			<img class = "fire1" src="src/Fire-1.png"><br>
 			<a class = "Cocolink buttonspace" href="https://www.stickpng.com/img/nature/fire/ball-of-fire"><button class = "CocoButton">Image Link</button></a>
 			<br>
 		    </div>
@@ -123,7 +131,7 @@
 			<br>
 			<a class = "Cocolink buttonspace" href="https://pokemondb.net/pokedex/fuecoco"><button class = "CocoButton">Information</button></a>
 			<a class = "Cocolink buttonspace" href="https://www.ign.com/wikis/pokemon-scarlet-violet/Fuecoco"><button class = "CocoButton">Information</button></a><br>
-		
+		</div>
 	
 			<!--Removed the stack overflow and added a br-->
 			<br>
