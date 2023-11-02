@@ -1,6 +1,6 @@
 body {
-    background-color:#ff7e75;
     text-align: center;
+    background-image: linear-gradient(to right,#ee3131,#f142e3);
 }
 .Fuecoco-word{
     font-size:80px;
@@ -30,8 +30,14 @@ table{
     color: #ffbb00;
     
 }
+table, td{
+    border: 0px;
+    border-style: solid;
+    border-radius: 9px;
+}
 hr{
-    width: 50%;border-color:#ff00f2;
+    width: 50%;
+    border-color:#ff7b00;
 }
 .about-title{
     color: #ffbb00;
@@ -89,6 +95,7 @@ hr{
 .bRight{
     margin-right: 20px;
 }
+fixes the spacing of affected
 .fueRight{
     margin-right: 10px;
 }
@@ -97,4 +104,34 @@ hr{
 }
 #dextable{
     background-color: #ffffff;
+}
+.ShinyRight{
+    margin-right: 40px;
+}
+.ShinyLeft{
+    margin-left: 40px;
+}
+#f{
+    color: #f142e3;
+}
+#u{
+    color: #F141D5;
+}
+#e{
+    color: #F13FC1;;
+}
+#c{
+    color: #FFBB00;
+}
+#o{
+    color: #ee315a;
+}
+#c1{
+    color: #EA363B;
+}
+#o1{
+    color: #e23226;
+}
+.fire{
+    width: 75px;
 }
